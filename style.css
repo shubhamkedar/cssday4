@@ -1,0 +1,83 @@
+.box{
+    background-image:url(./pic-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+}
+.box h1{
+   
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.logo{
+    position:absolute;
+    top: 400px;
+
+
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.cards{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.card1{
+    background-image: url(./pic-3.png);
+    height: 200px;
+    width: 200px;
+}
+
+    .card2{
+        background-image: url(./pic-3.png);
+        height: 200px;
+        width: 200px;
+    }
+    .card3{
+        background-image: url(./pic-3.png);
+        height: 200px;
+        width: 200px;
+    }
+    @media (min-width:360px) and (max-width:640px) {
+        .cards{
+            flex-direction: column;
+            align-items: center;
+            
+            
+        }
+    }
+    .head{
+        background-image: url(./shara\ desert.jpg);
+        background-size: cover;
+        height: 500px;
+        width: 800pxs;
+
+    }
+    .head button{
+        background-color: blue;
+        height: 40px;
+        width: 80px;
+        position: relative;
+        left: 400px;
+        top: 200px;
+    }
+    @media (max-width:720px) and (min-width:640px){
+        .head button{
+            background-color: aqua;
+        }
+    }
+    @media (max-width:620px) and (min-width:340px){
+        .head button{
+            background-color: chocolate;
+        }
+    }
